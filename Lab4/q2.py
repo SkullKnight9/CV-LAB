@@ -3,7 +3,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-img = cv.imread("C:/210962140/venv/Media/Photos/Sudoku.png")
+img = cv.imread("Media/Photos/Sudoku.png")
 
 def rescaleFrame(frame, scale=0.50):
     width = int(frame.shape[1] * scale)  # frame.shape[1] width of img
