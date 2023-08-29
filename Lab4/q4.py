@@ -27,7 +27,7 @@ def kmeans_segmentation(image, k, max_iterations=100):
 
 
 
-image_path = 'C:/210962140/venv/Media/Photos/Park.jpg'
+image_path = 'Media/Photos/Park.jpg'
 image = cv2.imread(image_path)
 
 num_clusters = 10
